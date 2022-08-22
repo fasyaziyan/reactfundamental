@@ -1,8 +1,14 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
+import Collection from './collection.albums'
 
 const Albums = () => {
     return (
-        <div>asa</div>
+        <React.Fragment>
+            <Container className="mt-2">
+                <Collection />
+            </Container>
+        </React.Fragment>
     )
 }
 

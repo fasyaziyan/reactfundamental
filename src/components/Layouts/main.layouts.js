@@ -1,8 +1,12 @@
-import React from 'react'
+import React from "react"
+import Navigation from "./navigation.layouts"
 
-const MainLayouts = () => {
+const MainLayouts = ({ children }) => {
     return (
-        <div>MainLayouts</div>
+        <React.Fragment>
+            <Navigation />
+            {children}
+        </React.Fragment>
     )
 }
 
